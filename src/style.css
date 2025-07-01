@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ffe0ec 0%, #b8c6ff 100%);
+  min-height: 100vh;
+  color: #2d2d2d;
+}
+
+.love-story-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: rgba(255,255,255,0.9);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+  padding: 32px 24px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #e75480;
+}
+
+.story-section {
+  margin: 32px 0;
+  transition: transform 0.5s;
+}
+
+.heart {
+  font-size: 48px;
+  color: #e75480;
+  animation: beat 1s infinite alternate;
+}
+
+@keyframes beat {
+  to { transform: scale(1.1); }
+}
+
+.button {
+  background: #e75480;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 32px;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-top: 24px;
+  transition: background 0.3s;
+}
+.button:hover {
+  background: #b83260;
+} 
